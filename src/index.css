@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  --webkit-scrollbar: none;
+  scrollbar-width: none;
+}
+body {
+  --webkit-scrollbar: 20px;
+  scrollbar-width: 20px;
+}
